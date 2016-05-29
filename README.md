@@ -1,3 +1,4 @@
 # cityforks
 
-First commit
+Meteor/React Web App
+ratchet.css
