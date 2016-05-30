@@ -195,7 +195,7 @@ a:active {
 }
 
 .bar-tab {
-  top: 0;
+  /*top: 0;*/
   bottom: auto;
   height: 50px;
   border-top: 0;

@@ -8,7 +8,7 @@ const Places = ({loc, places}) => (
 	<ul className="table-view">
 		{places.map( function( place ){
 			return (
-				<li className="table-view-cell media">
+				<li key={place._id} className="table-view-cell media">
 					<a className="navigate-right">
 						<img className="media-object pull-left" src={place.icon} />
 						<span className="badge">{place.rating}</span>
@@ -20,4 +20,4 @@ const Places = ({loc, places}) => (
 	</ul>
 )
 
-export default Places
+export default Places;
